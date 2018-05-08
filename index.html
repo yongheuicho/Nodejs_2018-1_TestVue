@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="app">
+        This is a test.
+        <!--Vue.js domain-->
+        <br> {{ message }}
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const myApp = new Vue({
+            el: '#app',
+            data: { message: 'Cloud!' }
+        });
+    </script>
+</body>
+
+</html>
